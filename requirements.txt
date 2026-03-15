@@ -1,4 +1,2 @@
-# DuckDuckGo search library
 ddgs>=9.11.4
-# For fetching full captions from pages
 requests>=2.31.0
