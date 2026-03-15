@@ -42,15 +42,9 @@ python sosialrel.py -u <username> -p <platform> -l <limit>
 
 ---
 
-## Search Modes
+## Security
 
-| # | Mode | Description |
-|---|------|-------------|
-| 1-10 | Platform Search | Searches within a specific platform |
-| 11 | Custom Domain | Enter any domain manually |
-| 12 | Internet Overall | Searches the entire web |
-| 13 | Limited Search | Only shows results where the username appears in the URL |
-| 14 | Two-Person Association | Searches for two usernames together, only shows URLs containing both |
+DuckDuckGo is used in the SosialRel tool because of its strong privacy policy and open search access. Unlike traditional search engines such as Google, DuckDuckGo states that it does not log users’ IP addresses or store search queries in a way that creates personal profiles. Many search engines typically collect information such as IP addresses, search queries, browser data, cookies or device fingerprints, and approximate location, which can later be linked to a user profile. In contrast, DuckDuckGo does not create user profiles or associate search queries with specific individuals. This makes it a suitable search engine for SosialRel, since the tool can perform username and footprint searches across the internet while maintaining a higher level of user privacy.
 
 ---
 
