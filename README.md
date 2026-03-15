@@ -1,4 +1,4 @@
-# sosialrel
+# SOSIALREL
 
 A simple command-line OSINT tool that searches for a username across social media platforms and the web using DuckDuckGo.
 
