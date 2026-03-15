@@ -11,10 +11,6 @@ A simple command-line OSINT tool that searches for a username across social medi
 - Python 3.x
 - `duckduckgo_search` or `ddgs`
 
-```
-pip install duckduckgo-search
-```
-
 ---
 
 ## Usage
@@ -22,20 +18,16 @@ pip install duckduckgo-search
 ### Interactive mode
 
 ```
-python sosialrel.py
+git clone https://github.com/rafosw/sosialrel
+cd sosialrel
+pip install requirements.txt --break-system-packages
+python3 sosialrel.py
 ```
 
 ### Command-line mode
 
 ```
 python sosialrel.py -u <username> -p <platform> -l <limit>
-```
-
-**Examples:**
-
-```
-python sosialrel.py -u johndoe -p instagram.com -l 20
-python sosialrel.py -u johndoe -p ALL -l 10
 ```
 
 ---
@@ -66,7 +58,7 @@ python sosialrel.py -u johndoe -p ALL -l 10
 
 The tool builds a DuckDuckGo query using `site:` operator for platform-specific searches or plain quoted search for global searches.
 
-If a username appears highlighted in red in the results, it means that username is directly present in that URL or its description. This can indicate the person followed someone, liked a post, left a comment, or has a profile on that platform.
+If a username appears highlighted in red in the results, it means that username is directly present in that URL or its description. This can indicate the person followed someone, liked a post, left a comment, or has a profile on that platform. If the username doesn't appear in red in the URL description, you can leave the other URLs blank.
 
 ---
 
