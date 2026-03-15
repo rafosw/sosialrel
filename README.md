@@ -2,6 +2,8 @@
 
 A simple command-line OSINT tool that searches for a username across social media platforms and the web using DuckDuckGo.
 
+<img src="https://github.com/rafosw/sosialrel/blob/main/ss/Screenshot%20From%202026-03-15%2019-19-19.png" width="800" height="850" />
+
 ---
 
 ## Requirements
