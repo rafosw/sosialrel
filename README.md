@@ -20,7 +20,7 @@ A simple command-line OSINT tool that searches for a username across social medi
 ```
 git clone https://github.com/rafosw/sosialrel
 cd sosialrel
-pip install requirements.txt --break-system-packages
+pip install -r requirements.txt --break-system-packages
 python3 sosialrel.py
 ```
 
